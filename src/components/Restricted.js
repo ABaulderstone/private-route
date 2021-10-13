@@ -6,6 +6,7 @@ import React from 'react'
 **/
 
 export const Restricted = (props) => {
+    console.log(props);
     const {message, loggedInUser} = props
   return(
     <h3> {message} {loggedInUser} </h3>

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom'
 import { Home } from './components/Home'
 import { Nav } from './components/Nav'
-import { PrivateRoute } from './components/PrivateRoute'
+import { PrivateRoute } from './components/utility/PrivateRoute'
 import { Restricted } from './components/Restricted'
 import { SignIn } from './components/SignIn'
 
